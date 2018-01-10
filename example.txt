@@ -1,0 +1,498 @@
+from pyzabbix import ZabbixAPI
+zi = ZabbixAPI(url='http://ipaddress:8090/zabbix', user='admin', password=password)
+zi.do_request("host.get", {"status": 1, "name": "dbb008df-cc82-4ae0-932a-f40b9f139a56"})
+{
+	u'jsonrpc': u'2.0',
+	u'result': [{
+		u'hostid': u'10084'
+	},
+	{
+		u'hostid': u'10226'
+	},
+	{
+		u'hostid': u'10227'
+	},
+	{
+		u'hostid': u'10268'
+	},
+	{
+		u'hostid': u'10269'
+	},
+	{
+		u'hostid': u'10270'
+	},
+	{
+		u'hostid': u'10276'
+	},
+	{
+		u'hostid': u'10277'
+	},
+	{
+		u'hostid': u'10279'
+	},
+	{
+		u'hostid': u'10280'
+	},
+	{
+		u'hostid': u'10281'
+	},
+	{
+		u'hostid': u'10282'
+	},
+	{
+		u'hostid': u'10283'
+	},
+	{
+		u'hostid': u'10284'
+	},
+	{
+		u'hostid': u'10285'
+	},
+	{
+		u'hostid': u'10290'
+	},
+	{
+		u'hostid': u'10294'
+	},
+	{
+		u'hostid': u'10300'
+	},
+	{
+		u'hostid': u'10302'
+	},
+	{
+		u'hostid': u'10303'
+	},
+	{
+		u'hostid': u'10311'
+	},
+	{
+		u'hostid': u'10314'
+	},
+	{
+		u'hostid': u'10316'
+	},
+	{
+		u'hostid': u'10317'
+	},
+	{
+		u'hostid': u'10321'
+	},
+	{
+		u'hostid': u'10322'
+	},
+	{
+		u'hostid': u'10326'
+	},
+	{
+		u'hostid': u'10327'
+	},
+	{
+		u'hostid': u'10332'
+	},
+	{
+		u'hostid': u'10333'
+	},
+	{
+		u'hostid': u'10334'
+	},
+	{
+		u'hostid': u'10338'
+	},
+	{
+		u'hostid': u'10360'
+	},
+	{
+		u'hostid': u'10362'
+	},
+	{
+		u'hostid': u'10377'
+	},
+	{
+		u'hostid': u'10378'
+	},
+	{
+		u'hostid': u'10501'
+	},
+	{
+		u'hostid': u'10503'
+	},
+	{
+		u'hostid': u'10582'
+	},
+	{
+		u'hostid': u'10667'
+	},
+	{
+		u'hostid': u'10750'
+	},
+	{
+		u'hostid': u'10752'
+	},
+	{
+		u'hostid': u'10753'
+	},
+	{
+		u'hostid': u'10754'
+	},
+	{
+		u'hostid': u'10767'
+	},
+	{
+		u'hostid': u'10768'
+	},
+	{
+		u'hostid': u'10769'
+	},
+	{
+		u'hostid': u'10783'
+	},
+	{
+		u'hostid': u'10785'
+	},
+	{
+		u'hostid': u'10786'
+	},
+	{
+		u'hostid': u'10790'
+	},
+	{
+		u'hostid': u'10791'
+	},
+	{
+		u'hostid': u'10804'
+	},
+	{
+		u'hostid': u'10806'
+	},
+	{
+		u'hostid': u'10809'
+	},
+	{
+		u'hostid': u'10812'
+	},
+	{
+		u'hostid': u'10813'
+	},
+	{
+		u'hostid': u'10815'
+	},
+	{
+		u'hostid': u'10816'
+	},
+	{
+		u'hostid': u'10817'
+	},
+	{
+		u'hostid': u'10818'
+	},
+	{
+		u'hostid': u'10819'
+	},
+	{
+		u'hostid': u'10821'
+	},
+	{
+		u'hostid': u'10822'
+	},
+	{
+		u'hostid': u'10824'
+	},
+	{
+		u'hostid': u'10825'
+	},
+	{
+		u'hostid': u'10826'
+	},
+	{
+		u'hostid': u'10829'
+	},
+	{
+		u'hostid': u'10830'
+	},
+	{
+		u'hostid': u'10835'
+	},
+	{
+		u'hostid': u'10853'
+	},
+	{
+		u'hostid': u'10854'
+	},
+	{
+		u'hostid': u'10856'
+	},
+	{
+		u'hostid': u'10858'
+	},
+	{
+		u'hostid': u'10859'
+	},
+	{
+		u'hostid': u'10860'
+	},
+	{
+		u'hostid': u'10861'
+	},
+	{
+		u'hostid': u'10865'
+	},
+	{
+		u'hostid': u'10866'
+	},
+	{
+		u'hostid': u'10867'
+	},
+	{
+		u'hostid': u'10868'
+	},
+	{
+		u'hostid': u'10869'
+	},
+	{
+		u'hostid': u'10871'
+	},
+	{
+		u'hostid': u'10872'
+	},
+	{
+		u'hostid': u'10874'
+	},
+	{
+		u'hostid': u'10875'
+	},
+	{
+		u'hostid': u'10876'
+	},
+	{
+		u'hostid': u'10877'
+	},
+	{
+		u'hostid': u'10878'
+	},
+	{
+		u'hostid': u'10879'
+	},
+	{
+		u'hostid': u'10880'
+	},
+	{
+		u'hostid': u'10881'
+	},
+	{
+		u'hostid': u'10882'
+	},
+	{
+		u'hostid': u'10884'
+	},
+	{
+		u'hostid': u'10885'
+	},
+	{
+		u'hostid': u'10886'
+	},
+	{
+		u'hostid': u'10887'
+	},
+	{
+		u'hostid': u'10888'
+	},
+	{
+		u'hostid': u'10889'
+	},
+	{
+		u'hostid': u'10890'
+	},
+	{
+		u'hostid': u'10891'
+	},
+	{
+		u'hostid': u'10892'
+	},
+	{
+		u'hostid': u'10893'
+	},
+	{
+		u'hostid': u'10894'
+	},
+	{
+		u'hostid': u'10895'
+	},
+	{
+		u'hostid': u'10896'
+	},
+	{
+		u'hostid': u'10897'
+	},
+	{
+		u'hostid': u'10898'
+	},
+	{
+		u'hostid': u'10899'
+	},
+	{
+		u'hostid': u'10900'
+	},
+	{
+		u'hostid': u'10901'
+	},
+	{
+		u'hostid': u'10902'
+	},
+	{
+		u'hostid': u'10903'
+	},
+	{
+		u'hostid': u'10904'
+	},
+	{
+		u'hostid': u'10905'
+	},
+	{
+		u'hostid': u'10906'
+	},
+	{
+		u'hostid': u'10907'
+	},
+	{
+		u'hostid': u'10908'
+	},
+	{
+		u'hostid': u'10909'
+	},
+	{
+		u'hostid': u'10910'
+	},
+	{
+		u'hostid': u'10911'
+	},
+	{
+		u'hostid': u'10912'
+	},
+	{
+		u'hostid': u'10913'
+	},
+	{
+		u'hostid': u'10914'
+	},
+	{
+		u'hostid': u'10915'
+	},
+	{
+		u'hostid': u'10916'
+	},
+	{
+		u'hostid': u'10917'
+	},
+	{
+		u'hostid': u'10918'
+	},
+	{
+		u'hostid': u'10919'
+	},
+	{
+		u'hostid': u'10920'
+	},
+	{
+		u'hostid': u'10921'
+	},
+	{
+		u'hostid': u'10922'
+	},
+	{
+		u'hostid': u'10923'
+	},
+	{
+		u'hostid': u'10924'
+	},
+	{
+		u'hostid': u'10925'
+	},
+	{
+		u'hostid': u'10926'
+	},
+	{
+		u'hostid': u'10927'
+	},
+	{
+		u'hostid': u'10928'
+	},
+	{
+		u'hostid': u'10929'
+	},
+	{
+		u'hostid': u'10930'
+	},
+	{
+		u'hostid': u'10931'
+	},
+	{
+		u'hostid': u'10933'
+	},
+	{
+		u'hostid': u'10934'
+	},
+	{
+		u'hostid': u'10940'
+	},
+	{
+		u'hostid': u'10941'
+	},
+	{
+		u'hostid': u'10942'
+	},
+	{
+		u'hostid': u'10943'
+	}],
+	u'id': u'1'
+}
+
+
+>>> zi.do_request("item.get", {"hostids": "10949", "itemids": ["90836", "90835"]})
+{u'jsonrpc': u'2.0', u'result': [{u'itemid': u'90835', u'lastvalue': u'8589512704', u'hostid': u'10949', u'lastclock': u'1515378736', u'value_type': u'3', u'prevvalue': u'8589512704', u'lastns': u'45108062'}, {u'itemid': u'90836', u'lastvalue': u'9', u'hostid': u'10949', u'lastclock': u'1515378736', u'value_type': u'3', u'prevvalue': u'9', u'lastns': u'45113455'}], u'id': u'1'}
+
+
+zi.do_request("history.get", {"hostids": "10949", "itemids": ["90833", "90836"], "limit": 10, "hisotry": 3, "output": "extend"})
+
+
+>>> zi.do_request("item.get", {"search": {"key_": "general_cpu_util_"}, "limit": 2, "output": "extend", "hostids": 10105})
+{u'jsonrpc': u'2.0', u'result': [{u'itemid': u'23704', u'username': u'', u'snmpv3_contextname': u'', u'inventory_link': u'0', u'multiplier': u'0', u'authtype': u'0', u'trends': u'365', u'snmpv3_authpassphrase': u'', u'snmp_oid': u'', u'templateid': u'0', u'snmpv3_securitylevel': u'0', u'port': u'', u'lifetime': u'0', u'lastns': u'0', u'password': u'', u'logtimefmt': u'', u'mtime': u'0', u'delay': u'30', u'publickey': u'', u'state': u'0', u'params': u'', u'snmpv3_securityname': u'', u'formula': u'1', u'type': u'7', u'snmpv3_authprotocol': u'0', u'prevvalue': u'0', u'status': u'0', u'lastlogsize': u'0', u'lastclock': u'0', u'snmp_community': u'', u'description': u'CPU Utilization Ratio', u'data_type': u'0', u'trapper_hosts': u'', u'lastvalue': u'0', u'units': u'%', u'value_type': u'0', u'delta': u'0', u'snmpv3_privprotocol': u'0', u'delay_flex': u'', u'interfaceid': u'0', u'snmpv3_privpassphrase': u'', u'hostid': u'10105', u'key_': u'general_cpu_util_', u'name': u'CPU Util', u'privatekey': u'', u'filter': u'', u'valuemapid': u'0', u'flags': u'0', u'error': u'', u'ipmi_sensor': u'', u'history': u'7'}], u'id': u'1'}
+>>> zi.do_request("item.get", {"search": {"key_": "general_cpu_util_"},"hostids": 10105})
+{u'jsonrpc': u'2.0', u'result': [{u'itemid': u'23704', u'lastvalue': u'0', u'hostid': u'10105', u'lastclock': u'0', u'value_type': u'0', u'prevvalue': u'0', u'lastns': u'0'}], u'id': u'1'}
+
+
+>>> zi.do_request("item.get", {"search": {"key_": "general_cpu_util_"},"hostids": 10967, "output": "extend"})
+{u'jsonrpc': u'2.0', u'result': [{u'itemid': u'91377', u'username': u'', u'snmpv3_contextname': u'', u'inventory_link': u'0', u'multiplier': u'0', u'authtype': u'0', u'trends': u'365', u'snmpv3_authpassphrase': u'', u'snmp_oid': u'', u'templateid': u'0', u'snmpv3_securitylevel': u'0', u'port': u'', u'lifetime': u'30', u'lastns': u'0', u'password': u'', u'logtimefmt': u'', u'mtime': u'0', u'delay': u'30', u'publickey': u'', u'state': u'0', u'params': u'', u'snmpv3_securityname': u'', u'formula': u'1', u'type': u'0', u'snmpv3_authprotocol': u'0', u'prevvalue': u'0', u'status': u'0', u'lastlogsize': u'0', u'lastclock': u'0', u'snmp_community': u'', u'description': u'', u'data_type': u'0', u'trapper_hosts': u'', u'lastvalue': u'0', u'units': u'', u'value_type': u'3', u'delta': u'0', u'snmpv3_privprotocol': u'0', u'delay_flex': u'', u'interfaceid': u'815', u'snmpv3_privpassphrase': u'', u'hostid': u'10967', u'key_': u'general_cpu_util_', u'name': u'jeguan_test_create_item', u'privatekey': u'', u'filter': u'', u'valuemapid': u'0', u'flags': u'0', u'error': u'', u'ipmi_sensor': u'', u'history': u'90'}], u'id': u'1'}
+
+>>> zi.do_request("template.create", {"groups": {"groupid": "18"}, "host": "guanasdfasdfasdf"})
+{u'jsonrpc': u'2.0', u'result': {u'templateids': [u'10964']}, u'id': u'1'}
+
+
+>>> zi.do_request("template.massadd", {"templates": [{"templateid": 10964}], "hosts": [{"hostid": "10959"}]})
+{u'jsonrpc': u'2.0', u'result': {u'templateids': [10964]}, u'id': u'1'}
+
+
+
+>>> zi.do_request("host.get", {"hostids": 10967, "output": "extend"})
+{u'jsonrpc': u'2.0', u'result': [{u'available': u'0', u'maintenance_type': u'0', u'maintenances': [], u'ipmi_username': u'', u'snmp_disable_until': u'0', u'ipmi_authtype': u'0', u'ipmi_disable_until': u'0', u'lastaccess': u'0', u'snmp_error': u'', u'ipmi_privilege': u'2', u'jmx_error': u'', u'jmx_available': u'0', u'ipmi_errors_from': u'0', u'maintenanceid': u'0', u'snmp_available': u'0', u'status': u'0', u'host': u'172.16.47.6', u'disable_until': u'0', u'ipmi_password': u'', u'templateid': u'0', u'ipmi_available': u'0', u'maintenance_status': u'0', u'snmp_errors_from': u'0', u'ipmi_error': u'', u'proxy_hostid': u'0', u'hostid': u'10967', u'name': u'172.16.47.6', u'jmx_errors_from': u'0', u'jmx_disable_until': u'0', u'flags': u'0', u'error': u'', u'maintenance_from': u'0', u'errors_from': u'0'}], u'id': u'1'}
+
+
+>>> zi.do_request("hostinterface.get", {"hostids": 10967})
+{u'jsonrpc': u'2.0', u'result': [{u'interfaceid': u'815', u'hostid': u'10967'}], u'id': u'1'}
+
+>>> zi.do_request("item.create", {"name": "jeguan_test_create_item", "key_": "general_cpu_util_", "hostid": 10967, "interfaceid": 815, "type": 0, "value_type": 3, "delay": 30})
+{u'jsonrpc': u'2.0', u'result': {u'itemids': [u'91377']}, u'id': u'1'}
+
+创建item
+>>> zi.do_request("item.create", {"name": "jeguan_test_create_item_10992", "key_": "general_cpu_util_", "hostid": 10992, "interfaceid": 819, "type": 7, "value_type": 3, "delay": 30, "units": "%"})
+{u'jsonrpc': u'2.0', u'result': {u'itemids': [u'91459']}, u'id': u'1'}
+
+
+将item关联到模板(此处的hostid为模板的templateid)
+>>> zi.do_request("item.create", {"name": "nokia2", "key_": "general_cpu_util_", "hostid": 11012, "interfaceid": "", "type": 7, "value_type": 3, "delay": 2, "units": "%"})
+{u'jsonrpc': u'2.0', u'result': {u'itemids': [u'92665']}, u'id': u'1'}
+
+删除host
+>>> zi.do_request("host.delete", [11013])
+{u'jsonrpc': u'2.0', u'result': {u'hostids': [11013]}, u'id': u'1'}
+
